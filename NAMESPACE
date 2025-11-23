@@ -1,0 +1,11 @@
+importFrom("graphics", "par", "plot", "points")
+importFrom("stats", "median", "qnorm", "qt")
+importFrom("ineq", "Lc")
+importFrom("lattice", "densityplot", "panel.densityplot", "panel.abline")
+
+export(hotspots, disprop, Lchs, outliers)
+
+S3method(plot, hotspots)
+S3method(print, hotspots)
+S3method(summary, hotspots)
+S3method(print, summary.hotspots)
