@@ -53,7 +53,7 @@ are flagged.
 ## Citation
 
 Darrouzet-Nardi A., Bowman W.D. (2011). Hot spots logic described in *Ecosystems*.  
-DOI: 10.1007/s10021-011-9450-x
+[https://doi.org/10.1007/s10021-011-9450-x](https://doi.org/10.1007/s10021-011-9450-x)
 
 Darrouzet-Nardi A. (2013– ). **hotspots**: Identify statistically disproportionate hot spots.  
 CRAN: https://CRAN.R-project.org/package=hotspots
