@@ -11,3 +11,4 @@ Description: The hotspots package is designed to look within a set of measured v
 Depends: lattice, ineq
 License: GPL-2
 LazyLoad: yes
+RoxygenNote: 7.3.2
