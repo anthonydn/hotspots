@@ -59,7 +59,3 @@ Darrouzet-Nardi A. (2013– ). **hotspots**: Identify statistically disproportio
 CRAN: https://CRAN.R-project.org/package=hotspots
 
 For a longer tutorial: http://anthony.darrouzet-nardi.net/hotspot_tutorial.html
-
-## License
-
-GPL-2
