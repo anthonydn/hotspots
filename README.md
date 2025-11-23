@@ -7,6 +7,8 @@ Identify statistically disproportionate “hot spots” in a set of data values
 magnitude, so only values that are both extreme *and* disproportionately large 
 are flagged. 
 
+Tutorial here: http://anthony.darrouzet-nardi.net/hotspot_tutorial.html 
+
 ## Install
 
 **Stable from CRAN**
@@ -57,5 +59,3 @@ Darrouzet-Nardi A., Bowman W.D. (2011). Hot spots logic described in *Ecosystems
 
 Darrouzet-Nardi A. (2013– ). **hotspots**: Identify statistically disproportionate hot spots.  
 CRAN: https://CRAN.R-project.org/package=hotspots
-
-For a longer tutorial: http://anthony.darrouzet-nardi.net/hotspot_tutorial.html
