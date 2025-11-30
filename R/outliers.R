@@ -1,3 +1,7 @@
+#' @rdname hotspots
+#' @param center.est character vector indicating the function to be used to center the data for identification of outliers.
+#' Defaults to \code{"mean"}.
+#' @export
 outliers <-
 function(x, p = 0.99, tail = "positive", distribution = "t", var.est = "mad", 
 	center.est = "mean") {

@@ -1,3 +1,11 @@
+#' @rdname summary.hotspots
+#' @param x \code{"summary.hotspots"} object
+#' @param digits the number of significant digits to use when printing
+#' @param p_round the number of decimal places to print for percentages when printing
+#' @param top the number of the most disproportionate (highest or lowest) data values to 
+#' print with their percent contributions to the total
+#' @method print summary.hotspots
+#' @export
 print.summary.hotspots <-
 function(x, 
 digits = max(3, getOption("digits") - 3), p_round = 1, top = 0, ...) {
@@ -13,7 +21,10 @@ if (h & !c) cat(paste("Tail: positive ", ty,  "s only", sep = ""))
 if (c & !h) cat(paste("Tail: negative ", ty,  "s only", sep = ""))
 if (h & c) cat(paste("Tail: positive and negative ", ty,  "s", sep = ""))
 
-print.default(x$m, print.gap = 2, quote = FALSE, digits = digits)
+cat("\nStandard summary statistics:\n")
+print(x$stats_standard, row.names = FALSE, digits = digits)
+cat("\nRobust summary statistics:\n")
+print(x$stats_robust, row.names = FALSE, digits = digits)
 cat("\nn = ", length(x$data))
 
 if (h & top > 0) {

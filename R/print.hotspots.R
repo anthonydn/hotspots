@@ -1,3 +1,5 @@
+#' @method print hotspots
+#' @export
 print.hotspots <-
 function(x, ...) {
 ty <- "hot spot"
